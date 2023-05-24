@@ -11,7 +11,7 @@ const Navbar = () => {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
         position="static"
-        style={{ backgroundColor: "white", position: "fixed" }}
+        style={{ backgroundColor: "white", position: "fixed", zIndex: 999 }}
       >
         <Toolbar>
           <div
